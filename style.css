@@ -1,0 +1,48 @@
+.firstname:disabled {
+    background-color: blue;
+}
+
+h1::first-letter {
+    color: red;
+    font-size: 40px;
+    background-color: blue;
+}
+
+p::first-line {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+p::selection {
+    color: white;
+    background-color: red;
+}
+
+/* the order of a tag pseudo classes matters (link, visited, hover, active)  */
+a:link {
+    color: yellowgreen;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: violet;
+}
+
+a:active {
+    color: teal;
+}
+
+
+h3::after {
+    content: 'you are very bad cry cry cry';
+    color: pink;
+}
+
+h3::before {
+    content: 'i am coming to the world';
+    color: blue;
+}
